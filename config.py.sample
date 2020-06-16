@@ -1,0 +1,4 @@
+TOKEN = '' # bot token
+CHAT_ID = # telegram chat id
+IP = '' # your ip
+
