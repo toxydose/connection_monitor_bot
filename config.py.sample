@@ -1,4 +1,5 @@
 TOKEN = '' # bot token
 CHAT_ID = # telegram chat id
 IP = '' # your ip
-
+PORT = '' # your SSH port
+HOSTNAME = '' # your hostname
