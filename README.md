@@ -43,4 +43,4 @@ from bot import * `
 
 `bot.send_message(chat_id=CHAT_ID, text=message)`
 
-`message` variable can be defined before, or specified directly within the logging line
+`message` variable can be defined before, or specified directly within the line abowe
