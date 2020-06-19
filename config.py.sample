@@ -1,5 +1,13 @@
-TOKEN = '' # bot token
-CHAT_ID = # telegram chat id
-IP = '' # your ip
-PORT = '' # your SSH port
-HOSTNAME = '' # your hostname
+TOKEN = '' # bot token. Should be filled for any module.
+
+CHAT_ID = # telegram chat id where you want to send logs. Should be filled for any module.
+
+IP = '' # Host's real ip.
+# if this IP corresponds to the current host IP checkvpn.py will send alerts to the chat that VPN is off
+
+PORT = '' # SSH port to check the alive of the remote host with check_alive.py
+
+HOSTNAME = '' # your hostname.
+# Should be specified for each host where one of the script is deployed to understand from which machine you received an alert
+
+REMOTE_HOSTNAME '' # hostname which should be specified to remote checks. Required for check_alive.py script
