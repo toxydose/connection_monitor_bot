@@ -30,6 +30,10 @@ If the specified in config.py IP corresponds to the current host IP address scri
 
 Checks if the remote host is up based on the requests to SSH interface.
 
+#### docker_check.py 
+
+Checks if the local host have running Docker containers by checking a matches for specified in config.py DOCKER_KEYWORD variable with the output of `docker ps` command 
+
 
 #### logging
 
