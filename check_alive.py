@@ -15,6 +15,7 @@ if 'SSH' in message:
 
 if status == False:
     output = run(command, shell=True, stdout=PIPE)
+    message = output.stdout.decode('utf-8')
     if 'SSH' in message:
         print()
     else:
