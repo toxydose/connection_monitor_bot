@@ -11,3 +11,5 @@ HOSTNAME = '' # your hostname.
 # Should be specified for each host where one of the script is deployed to understand from which machine you received an alert
 
 REMOTE_HOSTNAME = '' # hostname which should be specified to remote checks. Required for check_alive.py script
+
+DOCKER_KEYWORD = '' # used for docker_check.py script. Script checks is the specified value exists in the results of running docker ps command
