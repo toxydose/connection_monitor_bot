@@ -23,7 +23,7 @@ Any script can be activated by adding it to crontab to repeat it as often as you
 
 #### checkvpn.py
 
-Checks if the host where script is deployed still connected to VPN. Will not work if VPN does not change your real IP.
+Checks if the local host is still connected to VPN. Will not work if VPN does not change your real IP.
 If the specified in config.py IP corresponds to the current host IP address script considers that VPN is off and sends an alert.
 
 #### check_alive.py
@@ -32,8 +32,7 @@ Checks if the remote host is up based on the requests to SSH interface.
 
 #### docker_check.py 
 
-Checks if the local host have running Docker containers by checking a matches for specified in config.py DOCKER_KEYWORD variable with the output of `docker ps` command 
-
+Checks if the local host have running Docker containers by checking a matches for specified in config.py DOCKER_KEYWORD variable with the output of `docker ps` command. If docker container stops working for any reasons sends the message to the specified chat.
 
 #### logging
 
